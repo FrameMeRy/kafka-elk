@@ -30,4 +30,24 @@ sudo systemctl start docker
 sudo docker run hello-world
 ```
 เพื่อดูว่า Docker ทำงานแล้วหรือยัง
+
+## Dowload Docker-compose
+ทำการติดตั้งตัว Docker-compose 
+```bash
+sudo apt install docker-compose
+```
+เมื่อทำการติดตั้งเสร็จให้อัปเดด ด้วยคำสั่ง
+```bash
+sudo apt update
+```
+## Install system
+ทำการสร้าง Folder สำหรับในการเก็บตัวระบบด้วยคำสั่ง
+```bash
+mkdir <ชื่อ folder>
+```
+จากนั้นทำการใช้คำสั่ง cd เข้าไปที่ folder นั้น
+```bash
+cd <ชื่อ folder>
+```
+
 Credit by https://github.com/sermilrod
