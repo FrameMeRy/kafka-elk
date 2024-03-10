@@ -8,3 +8,12 @@ sudo apt update
 ```bash
 sudo apt upgrade
 ```
+## Dowload Docker & enable Docker
+ใช้คำสั่งด้านล่างในการติดตั้งตัว Docker
+```bash
+sudo apt install docker.io
+```
+ใช้คำสั่งด้านล่างในการเปิดใช้งาน Docker
+```bash
+sudo systemctl enable docker
+```
