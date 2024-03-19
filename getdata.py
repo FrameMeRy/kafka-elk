@@ -31,17 +31,6 @@ def getdata():
 
     print(f"Data saved to '{filename}'")
 
-    # Save ลง MongoDB
-    # if results:
-    #     mongo_client = MongoClient('mongodb://localhost:27017/')
-    #     db = mongo_client[MONGO_DB_NAME]
-    #     collection = db[MONGO_COLLECTION_NAME]
-
-    #     # Inserting the retrieved data into MongoDB
-    #     collection.insert_many(results)
-    #     print("Data inserted into MongoDB")
-    # else:
-    #     print("No data found to insert into MongoDB")
 
 # Call the function to get data, save to JSON, and then save to MongoDB
 getdata()
