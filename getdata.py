@@ -1,8 +1,8 @@
 import json
 from elasticsearch import Elasticsearch
 def getdata():
-    es = Elasticsearch(['http://10.251.151.76:9200'])
-    index_name = 'logstash-test-2024.02.28'
+    es = Elasticsearch(['http://localhost:9200'])
+    index_name = 'idexname'
 
     scroll_size = 10000
     search_body = {
