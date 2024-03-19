@@ -1,6 +1,10 @@
 # Kafka-ELK for Education in ITD62-332
 เป็นตัวระบบ Monitoring เพื่อใช้สำหรับในการตรวจสอบข้อมูลที่ผ่านเข้ามาใน Traffic
 ##
+##
+##GROK Debugger
+https://grokdebugger.com/
+##
 ## Update&Upgrade you software 
 ใช้คำสั่งด้านล่างที่ให้ไปเพื่อทำการ Update และ Upgrade ตัวซอฟแวร์ หรือระบบต่างๆ ภายในเครื่อง
 
