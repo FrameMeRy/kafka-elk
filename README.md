@@ -70,6 +70,10 @@ sudo nano /etc/sysctl.conf
 ```bash
 vm.max_map_count=262144
 ```
+และทำการเริ่มการทำงานของ sysctl ใหม่ด้วย
+```bash
+sudo sysctl -p /etc/sysctl.conf
+```
 ทำการเข้าไปที่ folder kafka-elk-docker-compose-master ด้วยคำสั่ง
 ```bash
 cd kafka-elk-docker-compose-master
