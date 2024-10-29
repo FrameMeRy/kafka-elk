@@ -32,5 +32,5 @@ def getdata():
     print(f"Data saved to '{filename}'")
 
 
-# Call the function to get data, save to JSON, and then save to MongoDB
+# Call the function to get data, save to JSON
 getdata()
