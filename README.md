@@ -1,4 +1,4 @@
-# Kafka-ELK for Education in ITD62-332
+# Kafka-ELK for Education in ITD62-332  for Ubuntu version 20
 เป็นตัวระบบ Monitoring เพื่อใช้สำหรับในการตรวจสอบข้อมูลที่ผ่านเข้ามาใน Traffic
 ##
 
